@@ -1,0 +1,92 @@
+[Stack]
+FillEnabled=0
+OverflowWarningsEnabled=1
+WarningThreshold=90
+SpWarningsEnabled=1
+WarnLogOnly=1
+UseTrigger=1
+TriggerName=main
+LimitSize=0
+ByteLimit=50
+[DebugChecksum]
+Checksum=1911644508
+[Exceptions]
+StopOnUncaught=_ 0
+StopOnThrow=_ 0
+[CallStack]
+ShowArgs=0
+[Disassembly]
+MixedMode=1
+[JLinkDriver]
+TraceBufferSize=0x00010000
+TraceStallIfFIFOFull=0x00000000
+TracePortSize=0x00000004
+CStepIntDis=_ 0
+[CodeCoverage]
+Enabled=_ 0
+[array_types]
+Fmt0=char[30]	3	0
+Fmt1=uint8[128]	3	0
+[watch_formats]
+Fmt0={W}1:ad_average	3	0
+Fmt1={W}1:bai_hei_shu	3	0
+Fmt2={W}1:center	3	0
+Fmt3={W}1:center_far_et	3	0
+Fmt4={W}1:hei_bai_shu	3	0
+Fmt5={W}1:i	3	0
+Fmt6={W}1:lsuo_CCD1_flag	3	0
+Fmt7={W}1:podao_flag	3	0
+Fmt8={W}1:road_wide_CCD1	3	0
+Fmt9={W}1:road_wide_CCD2	3	0
+Fmt10={W}1:rsuo_CCD1_flag	3	0
+Fmt11={W}1:tiaobiancha	3	0
+Fmt12={W}1:tiaobianshu	3	0
+[Trace1]
+Enabled=0
+ShowSource=1
+[Log file]
+LoggingEnabled=_ 0
+LogFile=_ ""
+Category=_ 0
+[TermIOLog]
+LoggingEnabled=_ 0
+LogFile=_ ""
+[CallStackLog]
+Enabled=0
+[DriverProfiling]
+Enabled=0
+Mode=1
+Graph=0
+Symbiont=0
+Exclusions=
+[Disassemble mode]
+mode=0
+[Breakpoints2]
+Bp0=_ 0 "EMUL_CODE" "{$PROJ_DIR$\..\..\..\..\..\..\jun\Desktop\舵机}.241.2" 0 0 1 "" 0 "" 0
+Bp1=_ 0 "EMUL_CODE" "{$PROJ_DIR$\..\..\App\Fuzzy.c}.257.3" 0 0 1 "" 0 "" 0
+Bp2=_ 0 "EMUL_CODE" "{$PROJ_DIR$\..\..\Chip\src\MK60_lptmr.c}.116.1" 0 0 1 "" 0 "" 0
+Bp3=_ 0 "EMUL_CODE" "{$PROJ_DIR$\..\..\Chip\src\MK60_lptmr.c}.92.1" 0 0 1 "" 0 "" 0
+Bp4=_ 0 "EMUL_CODE" "{$PROJ_DIR$\..\..\App\center_chuli.c}.1081.10" 0 0 1 "" 0 "" 0
+Bp5=_ 0 "EMUL_CODE" "{$PROJ_DIR$\..\..\App\center_chuli.c}.1088.13" 0 0 1 "" 0 "" 0
+Bp6=_ 0 "EMUL_CODE" "{$PROJ_DIR$\..\..\App\center_chuli.c}.610.13" 0 0 1 "" 0 "" 0
+Bp7=_ 0 "EMUL_CODE" "{$PROJ_DIR$\..\..\App\center_chuli.c}.482.21" 0 0 1 "" 0 "" 0
+Bp8=_ 0 "EMUL_CODE" "{$PROJ_DIR$\..\..\App\center_chuli.c}.560.20" 0 0 1 "" 0 "" 0
+Bp9=_ 0 "EMUL_CODE" "{$PROJ_DIR$\..\..\App\center_chuli.c}.1201.5" 0 0 1 "" 0 "" 0
+Count=10
+[Aliases]
+A0=_ "E:\编写的程序\IAR   代码\程序代码\ccd  c车 合成程序1\1.23单CCD\Chip\src\IAR\system_MK60DZ10.c" ""
+A1=_ "E:\编写的程序\IAR   代码\程序代码\ccd  c车 合成程序1\1.23单CCD\Chip\src\MK60_uart.c" ""
+A2=_ "E:\编写的程序\IAR   代码\程序代码\ccd  c车 合成程序1\3月份调车\3.3单CCD - 中心寻线  舵机差速\Board\src\VCAN_TSL1401.c" ""
+A3=_ "E:\编写的程序\IAR   代码\程序代码\ccd  c车 合成程序1\3月份调车\3.3单CCD - 中心寻线  舵机差速—壁障 2\App\main.c" ""
+A4=_ "E:\编写的程序\IAR   代码\程序代码\ccd  c车 合成程序1\3月份调车\3.3单CCD - 中心寻线  偏差差速\Board\src\VCAN_TSL1401.c" ""
+A5=_ "E:\编写的程序\IAR   代码\程序代码\ccd  c车 合成程序1\3月份调车\4.5 双CCD\Board\src\VCAN_TSL1401.c" ""
+A6=_ "E:\编写的程序\IAR   代码\程序代码\ccd  c车 合成程序1\3月份调车\4.6 双CCD\Chip\src\MK60_gpio.c" ""
+A7=_ "E:\竞赛\恩智浦\代码\电磁\第十二届电磁节能\7.12\App\main.c" ""
+A8=_ "E:\竞赛\恩智浦\代码\电磁\第十二届电磁节能\8.10\App\main.c" ""
+A9=_ "E:\竞赛\恩智浦\代码\摄像头\3.28\Board\src\VCAN_OV7725_Eagle.c" ""
+A10=_ "E:\竞赛\恩智浦\代码\摄像头\3.28\Chip\src\IAR\system_MK60DZ10.c" ""
+A11=_ "E:\竞赛\恩智浦\代码\摄像头\调试专用\舵机\Board\src\VCAN_SCCB.c" ""
+A12=_ "E:\竞赛\恩智浦\代码\摄像头\二月\Board\src\VCAN_OV7725_Eagle.c" ""
+A13=_ "E:\竞赛\恩智浦\代码\摄像头\三月\Board\src\VCAN_OV7725_Eagle.c" ""
+Count=14
+SuppressDialog=1
